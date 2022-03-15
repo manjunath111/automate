@@ -59,6 +59,7 @@
     "chef/automate-ha-postgresql",
     "chef/automate-ha-cluster-ctl",
     "chef/automate-netcat",
+    "chef/automate-supermarket-nginx",
     "core/rsync"
   ],
 
@@ -177,6 +178,15 @@
         "chef/automate-cs-oc-bifrost",
         "chef/automate-cs-oc-erchef",
         "chef/automate-cs-nginx"
+      ]
+    },
+    {
+      "name": "chef-supermarket",
+      "type": "product",
+      "aliases": ["supermarket"],
+      "dependencies": ["core","postgresql"],
+      "services": [
+        "chef/automate-supermarket-nginx"
       ]
     },
     {
