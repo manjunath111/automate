@@ -52,4 +52,6 @@ module "aws-output" {
   elasticsearch_private_ips = module.aws.elasticsearch_private_ips
   automate_fqdn             = module.aws.automate_fqdn
   automate_frontend_urls    = module.aws.automate_frontend_urls
+  chef_server_fqdn          = module.aws.chef_server_fqdn
+  chef_server_frontend_urls = module.aws.chef_server_frontend_urls
 }
