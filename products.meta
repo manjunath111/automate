@@ -59,6 +59,8 @@
     "chef/automate-ha-postgresql",
     "chef/automate-ha-cluster-ctl",
     "chef/automate-netcat",
+    "chef/automate-supermarket-redis",
+    "chef/automate-supermarket",
     "chef/automate-supermarket-nginx",
     "core/rsync"
   ],
@@ -186,7 +188,7 @@
       "aliases": ["supermarket"],
       "dependencies": ["core","postgresql"],
       "services": [
-        "chef/automate-supermarket-nginx"
+        "chef/automate-supermarket-redis"
       ]
     },
     {
