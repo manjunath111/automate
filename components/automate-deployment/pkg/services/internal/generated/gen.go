@@ -512,17 +512,7 @@ var ProductMetadataJSON = `
         "name": "chef/automate-supermarket",
         "data_service": false,
         "binlinks": null,
-        "uses_platform_scaffolding": false,
-        "bootstrap": null
-      }
-    },
-    {
-      "name": "chef/automate-supermarket-nginx",
-      "metadata": {
-        "name": "chef/automate-supermarket-nginx",
-        "data_service": false,
-        "binlinks": null,
-        "uses_platform_scaffolding": false,
+        "uses_platform_scaffolding": true,
         "bootstrap": null
       }
     },
